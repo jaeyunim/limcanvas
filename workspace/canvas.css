@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand:wght@400;500;700&display=swap');
+
+body {
+    background-color: #edf2f4;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+#jsCanvas {
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: #e5e5e5;
+    margin: 30px auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.jsMode {
+    display: flex;
+    margin: 25px 0;
+}
+
+.jsMode button:first-child,
+.jsMode button:last-child{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4c5760;
+    margin: 0px 10px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: 700;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.jsMode button:first-child:hover,
+.jsMode button:last-child:hover,
+.color{
+    cursor: pointer;
+}
